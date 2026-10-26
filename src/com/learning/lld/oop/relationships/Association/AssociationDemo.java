@@ -1,4 +1,4 @@
-package com.learning.lld.oop.relationships;
+package com.learning.lld.oop.relationships.Association;
 
 public class AssociationDemo
 {
