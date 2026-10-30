@@ -4,6 +4,6 @@ public class SMSNotification implements NotificationChannel
 {
     @Override
     public void sendNotification(String message) {
-        System.out.println("Sending SMS Notification");
+        System.out.println("Sending SMS Notification: "+message);
     }
 }
