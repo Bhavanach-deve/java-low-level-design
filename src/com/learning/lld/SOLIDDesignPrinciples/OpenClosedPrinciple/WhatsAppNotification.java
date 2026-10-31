@@ -1,4 +1,4 @@
-package com.learning.lld.SOLIDDesignPrinciples.Notifications;
+package com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple;
 
 public class WhatsAppNotification implements NotificationChannel {
     @Override

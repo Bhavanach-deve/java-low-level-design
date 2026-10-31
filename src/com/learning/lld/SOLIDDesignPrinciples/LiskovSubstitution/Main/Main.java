@@ -7,11 +7,11 @@ public class Main
 {
     static void main(String[] args) {
         PrintBook printBook = new PrintBook();
-        printBook.readBook("Reading PrintBook");
-        printBook.borrowBook("Printed book borrowed");
-        printBook.returnBook("Printed book returned");
+        printBook.readBook();
+        printBook.borrowBook();
+        printBook.returnBook();
         System.out.println();
         AudioBook audioBook = new AudioBook();
-        audioBook.readBook("Reading AudioBook");
+        audioBook.readBook();
     }
 }

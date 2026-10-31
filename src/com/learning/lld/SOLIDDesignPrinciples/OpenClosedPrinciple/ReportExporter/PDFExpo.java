@@ -1,4 +1,4 @@
-package com.learning.lld.SOLIDDesignPrinciples.Notifications.ReportExporter;
+package com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.ReportExporter;
 
 public class PDFExpo implements DataExporter
 {

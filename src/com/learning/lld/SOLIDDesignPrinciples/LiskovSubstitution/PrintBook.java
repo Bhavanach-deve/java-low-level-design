@@ -5,19 +5,19 @@ public class PrintBook implements Readable,Borrowable
 {
 
     @Override
-    public void borrowBook(String message) {
+    public void borrowBook() {
         System.out.println("PrintBook borrowed");
     }
 
     @Override
-    public void returnBook(String message)
+    public void returnBook()
     {
         System.out.println("PrintedBook returned");
 
     }
 
     @Override
-    public void readBook(String message) {
+    public void readBook( ){
         System.out.println("Reading PrintBook ");
     }
 }

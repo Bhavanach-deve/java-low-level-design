@@ -1,9 +1,9 @@
-package com.learning.lld.SOLIDDesignPrinciples.Main;
+package com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.Main;
 
-import com.learning.lld.SOLIDDesignPrinciples.NotificationService.ReportExporterService;
-import com.learning.lld.SOLIDDesignPrinciples.Notifications.ReportExporter.DataExporter;
-import com.learning.lld.SOLIDDesignPrinciples.Notifications.ReportExporter.ExcelExpo;
-import com.learning.lld.SOLIDDesignPrinciples.Notifications.ReportExporter.PDFExpo;
+import com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.NotificationService.ReportExporterService;
+import com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.ReportExporter.DataExporter;
+import com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.ReportExporter.ExcelExpo;
+import com.learning.lld.SOLIDDesignPrinciples.OpenClosedPrinciple.ReportExporter.PDFExpo;
 
 public class ReportExpoMain
 {
