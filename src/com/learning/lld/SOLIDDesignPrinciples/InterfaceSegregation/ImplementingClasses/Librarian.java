@@ -1,6 +1,6 @@
-package com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation.ImplementingClasses;
+package com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation.ImplementingClasses;
 
-import com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation.Borrowable;
+import com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation.Borrowable;
 
 public class Librarian implements Borrowable {
     @Override

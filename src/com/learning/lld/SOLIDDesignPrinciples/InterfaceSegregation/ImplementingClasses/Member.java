@@ -1,7 +1,7 @@
-package com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation.ImplementingClasses;
+package com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation.ImplementingClasses;
 
-import com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation.Readable;
-import com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation.Searchable;
+import com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation.Readable;
+import com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation.Searchable;
 
 public class Member implements Searchable, Readable {
     @Override

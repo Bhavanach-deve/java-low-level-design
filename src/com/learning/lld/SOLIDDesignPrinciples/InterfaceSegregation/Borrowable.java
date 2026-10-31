@@ -1,4 +1,4 @@
-package com.learning.lld.SOLIDDesignPrinciples.InterfaceSeggregation;
+package com.learning.lld.SOLIDDesignPrinciples.InterfaceSegregation;
 
 public interface Borrowable
 {
