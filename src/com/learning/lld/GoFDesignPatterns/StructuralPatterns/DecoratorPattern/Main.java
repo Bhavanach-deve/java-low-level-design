@@ -12,3 +12,6 @@ public class Main
 
     }
 }
+//The decorator implements the same interface as the original object, and it contains another object of that interface.
+//
+//This allows us to wrap an EmailNotification today and another Notification implementation tomorrow.
