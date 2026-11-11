@@ -13,3 +13,4 @@ public class Main
 
     }
 }
+//We encapsulate a request or operation inside a command object.
