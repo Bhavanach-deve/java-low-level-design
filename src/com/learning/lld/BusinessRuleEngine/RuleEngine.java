@@ -8,7 +8,10 @@ public class RuleEngine
     private List<Rule> rules;
     public RuleEngine(List<Rule> rules)
     {
-        this.rules = rules;
+        if(rules==null || rules.isEmpty()){
+            throw new IllegalArgumentException("RuleEngine must contain atleast one rule");
+        }
+        this.rules = new ArrayList<>(rules);
     }
     public List<RuleResult>evaluate(LoanApplicant applicant)
     {
