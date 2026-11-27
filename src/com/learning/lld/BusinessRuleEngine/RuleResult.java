@@ -19,7 +19,19 @@ public class RuleResult
     }
 
 
-    public RuleResult(String ruleName, boolean passed, String message) {
+    public RuleResult(String ruleName, boolean passed, String message)
+    {
+        if (ruleName == null || ruleName.isBlank()) {
+            throw new IllegalArgumentException(
+                    "Rule name cannot be null or blank"
+            );
+        }
+        if (message == null || message.isBlank()) {
+            throw new IllegalArgumentException(
+                    "Rule message cannot be null or blank"
+            );
+        }
+
         this.ruleName = ruleName;
         this.passed = passed;
         this.message = message;

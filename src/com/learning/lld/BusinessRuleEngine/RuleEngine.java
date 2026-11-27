@@ -26,9 +26,17 @@ public class RuleEngine
     }
     public List<RuleResult>evaluate(LoanApplicant applicant)
     {
+        if(applicant==null){
+            throw new IllegalArgumentException("LoanApplicant cannot be null");
+        }
+
         List<RuleResult> results = new ArrayList<RuleResult>();
         for(Rule rule : rules){
-            results.add(rule.evaluate(applicant));
+            RuleResult result = rule.evaluate(applicant);
+            if(result==null){
+                throw new IllegalStateException("Rule "+rule.getClass().getSimpleName()+" returned null for applicant"+applicant.getName());
+            }
+            results.add(result);
         }
         return  results;
     }
